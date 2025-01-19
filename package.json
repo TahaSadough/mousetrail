@@ -1,5 +1,5 @@
 {
-  "name": "mousetrail",
+  "name": "@codemasters/mousetrail",
   "version": "1.0.0",
   "description": "a lightweight, framework-independent mouse tracker library",
   "main": "src/index.js",
@@ -11,5 +11,18 @@
   "devDependencies": {
     "tsup": "^8.3.5",
     "typescript": "^5.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TahaSadough/mousetrail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TahaSadough/mousetrail/issues"
+  },
+  "homepage": "https://github.com/TahaSadough/mousetrail#readme",
+  "keywords": [
+    "mousetrail",
+    "mousetracker",
+    "mouse"
+  ]
 }
