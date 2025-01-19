@@ -2,7 +2,6 @@ export interface MouseTrailOptions {
   backgroundColor?: string;
   size?: Size;
   expandOnClick?: boolean;
-  // custom container
   // hover animation
   // expand & show text
   // custom image for mouse trail

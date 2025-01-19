@@ -7,7 +7,7 @@ export class MouseTrail {
    * @readonly
    */
   private static readonly BASE_STYLES =
-    'border-radius:1.5rem;position:absolute;top:0;left:0;transition:all .17s linear;';
+    'border-radius:1.5rem;position:relative;top:0;left:0;transition:all .17s linear;';
 
   /** Default options for the mouse trail
    * @protected
