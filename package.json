@@ -1,6 +1,6 @@
 {
   "name": "@codemasters/mousetrail",
-  "version": "1.0.4",
+  "version": "1.0.45",
   "description": "a lightweight, framework-independent mouse tracker library",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
