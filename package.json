@@ -1,0 +1,15 @@
+{
+  "name": "mousetrail",
+  "version": "1.0.0",
+  "description": "a lightweight, framework-independent mouse tracker library",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "Taha Sadough",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  }
+}
