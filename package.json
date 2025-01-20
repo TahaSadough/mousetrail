@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TahaSadough/mousetrail.git"
+    "url": "git+https://github.com/tahasadough/mousetrail.git"
   },
   "bugs": {
-    "url": "https://github.com/TahaSadough/mousetrail/issues"
+    "url": "https://github.com/tahasadough/mousetrail/issues"
   },
-  "homepage": "https://github.com/TahaSadough/mousetrail#readme",
+  "homepage": "https://github.com/tahasadough/mousetrail#readme",
   "keywords": [
     "mousetrail",
     "mousetracker",
