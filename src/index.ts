@@ -1,11 +1,11 @@
 import { MouseTrailOptions } from './interfaces';
 import { MouseTrail } from './mousetrail';
 
-const newMouseTrailInstance = (options: MouseTrailOptions) =>
+const createMouseTrail = (options: MouseTrailOptions) =>
   new MouseTrail(options);
 
-const createMT = Object.assign(
-  (options?: MouseTrailOptions) => newMouseTrailInstance(options!),
+const mouseTrail = Object.assign(
+  (options?: MouseTrailOptions) => createMouseTrail(options!),
   {
     distroy: () => {
       document.querySelector('.mousetrail')?.remove();
@@ -13,4 +13,4 @@ const createMT = Object.assign(
   }
 );
 
-export default createMT;
+export default mouseTrail;
