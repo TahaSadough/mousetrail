@@ -40,6 +40,7 @@ export class MouseTrail {
    */
   #create(): HTMLElement {
     const mouseTrail: HTMLElement = document.createElement('div');
+    mouseTrail.className = 'mousetrail';
     return mouseTrail;
   }
 
@@ -125,13 +126,5 @@ export class MouseTrail {
     this.#container = document.body;
     this.#appendToContainer();
     this.#adjustments();
-  }
-
-  /**
-   * Destroys the mouse trail by removing it from the container
-   * @public
-   */
-  destroy() {
-    this.#container.removeChild(this.#mouseTrailNode);
   }
 }
